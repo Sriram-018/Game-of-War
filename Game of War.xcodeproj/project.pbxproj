@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		807D8FBB2A2E33BB003A440E /* GameModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807D8FBA2A2E33BB003A440E /* GameModal.swift */; };
+		807D8FBD2A2E3438003A440E /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807D8FBC2A2E3438003A440E /* GameData.swift */; };
 		80DFDEA32A2C8CEB001782BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DFDEA22A2C8CEB001782BE /* AppDelegate.swift */; };
 		80DFDEA52A2C8CEB001782BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DFDEA42A2C8CEB001782BE /* SceneDelegate.swift */; };
 		80DFDECE2A2C8D88001782BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DFDEC62A2C8D86001782BE /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		807D8FBA2A2E33BB003A440E /* GameModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModal.swift; sourceTree = "<group>"; };
+		807D8FBC2A2E3438003A440E /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
 		80DFDE9F2A2C8CEB001782BE /* Game of War.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game of War.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DFDEA22A2C8CEB001782BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80DFDEA42A2C8CEB001782BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 				80DFDEC82A2C8D87001782BE /* HomeViewController.swift */,
 				80DFDEC72A2C8D87001782BE /* PlayViewController.swift */,
 				80DFDEC92A2C8D87001782BE /* GameViewController.swift */,
+				807D8FBC2A2E3438003A440E /* GameData.swift */,
+				807D8FBA2A2E33BB003A440E /* GameModal.swift */,
 				80DFDECC2A2C8D88001782BE /* RuleViewController.swift */,
 				80DFDECB2A2C8D87001782BE /* Cards.swift */,
 				80DFDEC62A2C8D86001782BE /* Main.storyboard */,
@@ -151,11 +157,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				80DFDED12A2C8D88001782BE /* GameViewController.swift in Sources */,
+				807D8FBB2A2E33BB003A440E /* GameModal.swift in Sources */,
 				80DFDEA32A2C8CEB001782BE /* AppDelegate.swift in Sources */,
 				80DFDECF2A2C8D88001782BE /* PlayViewController.swift in Sources */,
 				80DFDED32A2C8D88001782BE /* Cards.swift in Sources */,
 				80DFDED42A2C8D88001782BE /* RuleViewController.swift in Sources */,
 				80DFDEA52A2C8CEB001782BE /* SceneDelegate.swift in Sources */,
+				807D8FBD2A2E3438003A440E /* GameData.swift in Sources */,
 				80DFDED02A2C8D88001782BE /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,7 @@
         <!--Home View Controller-->
         <scene sceneID="oL0-Hp-hHx">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="KYN-uR-xlb" customClass="HomeViewController" customModule="Game_of_War" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="KYN-uR-xlb" customClass="HomeViewController" customModule="Game_of_War" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ozw-V0-Wyt">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -82,7 +82,7 @@
         <!--Play View Controller-->
         <scene sceneID="PEJ-LL-khM">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="OOj-cw-Z1L" userLabel="Play View Controller" customClass="PlayViewController" customModule="Game_of_War" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="OOj-cw-Z1L" userLabel="Play View Controller" customClass="PlayViewController" customModule="Game_of_War" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="beP-4F-SVu">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -495,19 +495,19 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RULES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6C9-8t-KF5" userLabel="Rule Title">
-                                <rect key="frame" x="150.66666666666669" y="123.66666666666669" width="128.66666666666669" height="48"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
+                                <rect key="frame" x="158.66666666666666" y="123.66666666666669" width="112.66666666666666" height="42"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=compact-widthClass=compact">
-                                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
+                                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular">
-                                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="60"/>
+                                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="55"/>
                                 </variation>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CtX-Ar-Ms9" userLabel="Rules">
-                                <rect key="frame" x="20" y="179.66666666666669" width="390" height="722.33333333333326"/>
+                                <rect key="frame" x="20" y="173.66666666666669" width="390" height="728.33333333333326"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Each player begins the game with a hand of 26 cards.
@@ -564,7 +564,7 @@ Player with all the cards WIN.</string>
     <inferredMetricsTieBreakers>
         <segue reference="Gvt-ym-bQf"/>
         <segue reference="pB8-VZ-FpU"/>
-        <segue reference="QVi-Lr-ZVM"/>
+        <segue reference="8a1-7b-nIF"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
